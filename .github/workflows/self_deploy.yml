@@ -25,3 +25,4 @@ jobs:
       - name: Deploy to S3 bucket
         working-directory: ./cloud-computing-aws/
         run: aws s3 sync . s3://clase-pipelines --exclude ".git/*"
+        
